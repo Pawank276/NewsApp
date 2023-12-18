@@ -1,0 +1,13 @@
+.card img {
+    width: 100%;
+    height: 100%;
+}
+
+#navbarSupportedContent .link:hover {
+    color: green !important;
+}
+
+#navbarSupportedContent .link {
+    font-weight: bold;
+    margin-right: 30px;
+}
