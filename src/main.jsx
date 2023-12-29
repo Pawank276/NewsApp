@@ -13,13 +13,13 @@ const router = createBrowserRouter([
     path: '/',
     element: <App />,
     children: [
-      { path: "/", element: <Home key="general" country="in" category="general" /> },
-      { path: "/sports", element: <Home key="sports" country="in" category="sports" /> },
-      { path: "/Entertainment", element: <Home key="entertainment" country="in" category="entertainment" /> },
-      { path: "/Business", element: <Home key="business" country="in" category="business" /> },
-      { path: "/Science", element: <Home key="science" country="in" category="science" /> },
-      { path: "/Health", element: <Home key="health" country="in" category="health" /> },
-      { path: "/Technology", element: <Home key="technology" country="in" category="technology" /> },
+      { path: "/", element: <Home pageSize={6} key="general" country="in" category="general" /> },
+      { path: "/sports", element: <Home pageSize={6} key="sports" country="in" category="sports" /> },
+      { path: "/entertainment", element: <Home pageSize={6} key="entertainment" country="in" category="entertainment" /> },
+      { path: "/business", element: <Home pageSize={6} key="business" country="in" category="business" /> },
+      { path: "/science", element: <Home pageSize={6} key="science" country="in" category="science" /> },
+      { path: "/Health", element: <Home pageSize={6} key="health" country="in" category="health" /> },
+      { path: "/technology", element: <Home pageSize={6} key="technology" country="in" category="technology" /> },
     ]
   }
 

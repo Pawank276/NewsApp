@@ -18,19 +18,19 @@ const Header = () => {
                             <Link className="nav-link text-primary link" to="/sports">Sports</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary link" to="/Entertainment">Entertainment</Link>
+                            <Link className="nav-link text-primary link" to="/entertainment">Entertainment</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary link" to="/Business">Business</Link>
+                            <Link className="nav-link text-primary link" to="/business">Business</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary link" to="/Science">Science</Link>
+                            <Link className="nav-link text-primary link" to="/science">Science</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary link" to="/Health">Health</Link>
+                            <Link className="nav-link text-primary link" to="/health">Health</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link text-primary link" to="/Technology">Technology</Link>
+                            <Link className="nav-link text-primary link" to="/technology">Technology</Link>
                         </li>
                     </ul>
                 </div>
