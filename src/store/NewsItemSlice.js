@@ -6,6 +6,9 @@ const NewsItemSlice = createSlice({
     reducers: {
         addInitialItems: (state, action) => {
             return action.payload;
+        },
+        addMoreItems: (state, action) => {
+            return state.concat(action.payload);
         }
     }
 }

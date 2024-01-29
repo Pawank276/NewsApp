@@ -34,8 +34,7 @@ const Home = ({ country, pageSize, category }) => {
     const fetchMoreData = () => {
         axios.get(`https://newsapi.org/v2/top-headlines?country=${country}&category=${category}&apiKey=e6ad4701e514494aa59a8c90f60e1faa&page=${page + 1}&pageSize=${pageSize}`)
             .then((item) => {
-                dispatch(NewsItemSliceActions.addInitialItems(newsItems.concat(item.data.articles)))
-                settotalResults(item.data.totalResults);
+                dispatch(NewsItemSliceActions.addMoreItems(item.data.articles))
                 setPage(page + 1);
             });
     };
